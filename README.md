@@ -10,8 +10,10 @@ Setup Guide: Creating a catkin workspace
 
 Start up a terminal, and enter the following commands in sequence:
     
-mkdir -p ~/catkin_ws/src}
+mkdir -p ~/catkin_ws/src
+
 cd ~catkin_ws/
+
 catkin_make
  
 Create a folder named "var5" inside /catkin\_ws/src. Now clone this repository into that folder.

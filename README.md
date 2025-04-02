@@ -24,7 +24,7 @@ Create a folder named "var5" inside /catkin\_ws/src. Now clone this repository i
 After doing this, you should have two packages under /src, named 'leg_tracker' and 'var5'. Return to your terminal and once again call catkin_make.
 
 
-Setup Guide: Launching a sample simulationin Rviz and Gazebo}
+Setup Guide: Launching a sample simulationin Rviz and Gazebo
 
 Start up 3 new, separate terminals, and call singularity run <path-to-your-tiago-container>.sif in each.
 
@@ -33,4 +33,4 @@ Use cd commands to navigate into ~/catkin_ws/src and then type roslocal in all 4
 Under /src/ there is a folder named '/sample' that is used as a parameter for a map file. I will refer to the path to this (SAMPLE).
 
 Now launch "roslaunch tiago_2dnav_gazebo tiago_navigation.launch public_sim:=true lost:=true map:=(SAMPLE) world:=empty_world to bring up the simulation.
-In another terminal, go to ~/catkin_ws/ and type source devel/setup.bash and then roslaunch leg_tracker joint_leg_tracker.launch. You haare now running everything.
+In another terminal, go to ~/catkin_ws/ and type source devel/setup.bash and then roslaunch leg_tracker joint_leg_tracker.launch. You are now running everything.

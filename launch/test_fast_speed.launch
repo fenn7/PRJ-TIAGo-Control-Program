@@ -1,0 +1,6 @@
+<launch>
+<param name="launch_pose_x" value="-10"/>
+<param name="launch_pose_y" value="0"/>
+<node pkg="var5" type="TestTourTime.py" name="tourtimer"/>
+<node pkg="var5" type="PersonPublishers.py" name="person_publish"/>
+</launch>

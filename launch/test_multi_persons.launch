@@ -1,0 +1,4 @@
+<launch>
+<node pkg="var5" type="TestTourTime.py" name="tourtimer"/>
+<node pkg="var5" type="TestMultiPerson.py" name="multi"/>
+</launch>

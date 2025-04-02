@@ -1,0 +1,4 @@
+<launch>
+<node pkg="var5" type="NextFeatureNode.py" name="nextfeature"/>
+<node pkg="var5" type="MainNode.py" name="main"/>
+</launch>

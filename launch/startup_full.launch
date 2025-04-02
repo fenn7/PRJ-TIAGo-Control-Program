@@ -1,0 +1,6 @@
+<launch>
+<node pkg="var5" type="NextFeatureNode.py" name="nextfeature"/>
+<node pkg="var5" type="SetupSimulation.py" name="setup"/>
+<include file="$(find tts)/launch/tts.launch"/>
+<node pkg="var5" type="MainNode.py" name="main"/>
+</launch>

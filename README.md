@@ -15,9 +15,11 @@ mkdir -p ~/catkin_ws/src
 cd ~catkin_ws/
 
 catkin_make
- 
-Create a folder named "var5" inside /catkin\_ws/src. Now clone this repository into that folder.
+
 Enter the command git clone git@github.com:angusleigh/leg_tracker.git -b noetic 
+
+Create a folder named "var5" inside /catkin\_ws/src. Now clone this repository into that folder.
+
 
 After doing this, you should have two packages under /src, named 'leg_tracker' and 'var5'. Return to your terminal and once again call catkin_make.
 
